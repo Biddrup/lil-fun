@@ -1,0 +1,11 @@
+.mother {
+	position: relative;
+}
+.mother::after {
+    content: "";
+    position: absolute;
+    border-bottom: 60px solid red;
+    border-right: 62px solid #333;
+    top: 0px;
+    left: 0px;
+}
